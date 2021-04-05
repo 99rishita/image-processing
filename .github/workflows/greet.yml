@@ -1,0 +1,11 @@
+name: Gree
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    # Runs a single command using the runners shell
+    - name: Send greeting
+      run: echo "Hello Revati"
